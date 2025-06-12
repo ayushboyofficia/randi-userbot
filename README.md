@@ -1,10 +1,10 @@
-# ✨ UltraUserBot - Pyrogram Based Telegram UserBot 🔥
+# 🌸 UltraUserBot - Telegram's Anime Vibe Raid King 🤖💥
 
-![UltraUserBot](https://i.imgur.com/G1mQF9O.png)
+![UltraUserBot Banner](https://i.imgur.com/G1mQF9O.png)
 
 <p align="center">
-  <b>The Ultimate Modular Telegram UserBot built with Pyrogram 💬</b><br>
-  <i>Fast, lightweight, customizable, and deployable anywhere!</i>
+  <b>From Shayari to Hack, Magic to Raid — All-in-One Anime-Powered Telegram UserBot 💫</b><br>
+  <i>Rule the chats like an overpowered MC 💣 Built with Pyrogram, designed to dominate!</i>
 </p>
 
 <p align="center">
@@ -16,45 +16,38 @@
 
 ---
 
-## 🔥 Features at a Glance
+## 🧩 Features — All You Need, Nothing You Don’t
 
-- 🔐 PM Permit with auto-approve
-- 💌 Shayari Generator (Hindi love lines)
-- 💘 Love Raid Spammer
-- ✨ Magic & Emoji Animations
-- 🧠 Fake Hacking Simulator
-- 🖼️ Carbon Image Generator
-- 😴 AFK with detection
-- 😂 Laughing Animation
-- 💣 Spam Commands (for fun)
-- 🤬 Gali Raid (be respectful!)
-- 🛠 Help system with `/help`
-- 📶 Ping and uptime with `/ping`
-- ✅ Alive check with bot name
+- 🛡️ PM Permit with Auto Approve/Block
+- 💘 Love Raid (Hearts Everywhere!)
+- 🧙‍♂️ Magic Animations (Emoji Effects)
+- 🤖 Fake Hacking Just for Fun
+- 🎴 Shayari & Sad Lines Generator
+- 🖼️ Carbon Code Image Creator
+- 💤 AFK with Auto Return
+- 😂 Looping Laugh Animation
+- 💥 Spam Commands (Text Flood)
+- 🤬 Gali Raid (Handle with Care 😅)
+- 🔧 Help Menu with All Commands
+- 📶 Ping to Check Bot Speed
+- 🔥 Alive with Your Bot Branding
 
 ---
 
-## 💻 Deployment Options
+## 💻 Deploy Like a Pro
 
-### 🧪 Deploy to Render
-
-> Works directly from GitHub repo!
-
-- Fork this repo
-- Go to [Render](https://render.com)
-- Create new web service
-- Add build & start command:
+### 🔷 Render (Recommended)
 
 ```bash
-Build: pip install -r requirements.txt
-Start: python3 main.py
+1. Fork this repo to your GitHub
+2. Go to https://render.com
+3. New Web Service → Connect Repo
+4. Build Command: pip install -r requirements.txt
+5. Start Command: python3 main.py
+6. Add API_ID, API_HASH, SESSION as ENV
 ```
 
-- Set environment variables from `.env` (API_ID, API_HASH, SESSION, etc.)
-
----
-
-### 📲 Deploy on Termux / VPS
+### 🔷 Termux / VPS
 
 ```bash
 pkg install git python -y
@@ -62,30 +55,29 @@ git clone https://github.com/<your-username>/ultra-userbot.git
 cd ultra-userbot
 pip install -r requirements.txt
 cp .env.example .env
-nano .env
+nano .env  # add API_ID, API_HASH, SESSION
 python3 main.py
 ```
 
 ---
 
-## 📂 Project Structure
+## 🗃️ Folder Layout
 
 ```
 ultra_userbot/
-│
-├── main.py                  # Entry point
-├── requirements.txt         # All required packages
-├── .env.example             # Sample config
-├── README.md                # This file
+├── main.py
+├── requirements.txt
+├── .env.example
+├── README.md
 │
 ├── config/
-│   ├── env_config.py        # Environment loader
-│   └── constants.py         # Constants
+│   ├── env_config.py
+│   └── constants.py
 │
 ├── core/
-│   ├── client.py            # Pyrogram client init
-│   ├── loader.py            # Module loader
-│   └── utils.py             # Helper functions
+│   ├── client.py
+│   ├── loader.py
+│   └── utils.py
 │
 └── modules/
     ├── pmpermit.py
@@ -105,7 +97,7 @@ ultra_userbot/
 
 ---
 
-## ⚙️ Environment Variables (`.env`)
+## 🧪 .env Format
 
 ```
 API_ID=123456
@@ -114,23 +106,31 @@ SESSION=your_string_session
 BOT_NAME=UltraUserBot
 ```
 
-> You can generate string session using [@StringSessionGenBot](https://t.me/StringSessionGenBot)
+> 🎯 [Generate SESSION using @StringSessionGenBot](https://t.me/StringSessionGenBot)
 
 ---
 
-## 🙌 Special Thanks
+## 🎌 Weeb Vibes Activated
 
-- Pyrogram Library
-- All Devs & Friends who helped in building this
+- ⚔️ Inspired by Anime MC Energy
+- 🐉 Shayari x Raid Combo Power
+- 💥 Auto-Pilot PM Filtering
+- 🎯 Works on Termux, VPS, or Cloud
 
 ---
 
 ## 💬 Connect
 
-> Have an idea, feature request, or want to collab?
-
 - Telegram: [@YourUsername](https://t.me/YourUsername)
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: [github.com/your-username](https://github.com/your-username)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ by Desi Hackers. Rule Telegram like a Pro!</b><br>
+  <i>Anime meets Tech. UltraUserBot ready for WAR 🔥</i>
+</p>
+)
 
 ---
 
